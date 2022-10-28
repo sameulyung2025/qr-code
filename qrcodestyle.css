@@ -1,0 +1,42 @@
+html {
+    background-color: rgb(216,224,238);
+}
+
+.maindiv {
+    width:320px;
+    height:500px;
+    background-color: white;
+    border-radius:20px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:150px;
+
+}
+
+.content {
+    text-align:center;
+    font-family: "Outfit";
+    width:290px;
+    display: block;
+    margin:15px;
+}
+
+.qrcode{
+    width:290px;
+    height:auto;
+    border-radius:20px;
+    display:block;
+
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description{
+    font-weight: 400;
+    font-size:15px;
+}
